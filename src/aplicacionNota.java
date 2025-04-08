@@ -3,7 +3,8 @@ public class AplicacionNota {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
     
-        // Definición de constantes //
+        // Definición de constantes //5
+        
         final int NUM_ASIGNATURAS = 3;
         final int NUM_ESTUDIANTES = 5;
         final double NOTA_MINIMA_APROBAR = 3.0;
@@ -41,7 +42,7 @@ public class AplicacionNota {
         // Recorrer los estudiantes //
         for (int i = 0; i < NUM_ESTUDIANTES; i++) {
             // Mostrar información del estudiante con formato //
-            System.out.println("\nEstudiante " + (i + 1) + ":");
+            System.out.println("Estudiante " + (i + 1) + ":");
             System.out.println("Nombre: " + nombresEstudiantes[i]);
             System.out.println("ID: " + identificacionesEstudiantes[i]);
             System.out.println("Promedio: " + promediosEstudiantes[i]); 

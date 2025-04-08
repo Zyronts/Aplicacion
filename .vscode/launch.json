@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AplicacionNota",
+            "request": "launch",
+            "mainClass": "AplicacionNota",
+            "projectName": "Aplicacion_3ccd894b"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
