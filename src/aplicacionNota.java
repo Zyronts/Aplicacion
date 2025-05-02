@@ -3,7 +3,7 @@ public class AplicacionNota {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
     
-        // Definición de constantes //5
+        // Definición de constantes //
         
         final int NUM_ASIGNATURAS = 3;
         final int NUM_ESTUDIANTES = 5;
@@ -37,7 +37,7 @@ public class AplicacionNota {
         }
 
         System.out.println("Reporte de estudiantes:");
-        System.out.println("==============================");
+        System.out.println("-==============================");
         
         // Recorrer los estudiantes //
         for (int i = 0; i < NUM_ESTUDIANTES; i++) {
